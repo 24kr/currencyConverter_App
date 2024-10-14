@@ -19,7 +19,7 @@ const ConverterForm = () => {
 
   // Function to fetch the exchange rate and update the result
   const getExchangeRate = async () => {
-    const API_KEY = "75129a2a4f85ae32c3d4ac22";
+    const API_KEY = "75129a2a4f85ae32c3d4ac33";
     const API_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}/pair/${fromCurrency}/${toCurrency}`;
 
     if (isLoading) return;
@@ -47,7 +47,7 @@ const ConverterForm = () => {
 
   // Function to fetch historical rates
   const getHistoricalRates = async () => {
-    const API_KEY = "75129a2a4f85ae32c3d4ac22";
+    const API_KEY = "75129a2a4f85ae32c3d4ac33";
     const { start, end } = dateRange;
     const API_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}/history/${fromCurrency}/${toCurrency}/${start}/${end}`;
 
