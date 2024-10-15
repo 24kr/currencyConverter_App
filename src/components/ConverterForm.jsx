@@ -123,7 +123,7 @@ const ConverterForm = () => {
       </div>
 
          <p className="text-lg text-blue-900 dark:text-blue-200 mt-4">
-                {isLoading ? "Loading..." : result}
+                {isLoading ? "Loading update..." : result}
             </p>
       <div className="mt-4 justify-between items-center">
         <label className="text-blue-900 font-medium block mb-2 text-lg dark:text-blue-200">Historical Date Range</label>
